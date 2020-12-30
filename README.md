@@ -10,13 +10,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Build
+# Running unit tests
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io) in interactive mode..
 
-## Running unit tests
+## Running unit test with code coverage report generating
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`ng test --no-watch --code-coverage` noninteractive mode
 
 ## Running end-to-end tests
 
